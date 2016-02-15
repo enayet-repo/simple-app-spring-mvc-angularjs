@@ -5,11 +5,19 @@ The application that expose a REST service that returns a list of People. This a
 Install project dependencies
 -----------------------------
 
-Install JDK with [Homebrew](http://brew.sh/) <code>brew install java</code> or [Manual Install](http://docs.oracle.com/javase/7/docs/webnotes/install/).
+Install JDK with [Homebrew](http://brew.sh/)
 
-Install Maven with [Homebrew](http://brew.sh/) <code>brew install maven</code> or [Manual Install](https://maven.apache.org/install.html).
+    brew install java
 
-Run project
+or [Manual Install](http://docs.oracle.com/javase/7/docs/webnotes/install/).
+
+Install Maven with [Homebrew](http://brew.sh/)
+
+    brew install maven
+
+or [Manual Install](https://maven.apache.org/install.html).
+
+Running project
 -----------------------------------
 After you sucessfully installed everything, just open a command and run:
 
