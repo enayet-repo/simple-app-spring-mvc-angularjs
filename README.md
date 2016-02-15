@@ -38,17 +38,20 @@ API Service can be reached using the following URL:
 
     http://localhost:8090/rest/
 
-People - GET - /<code>people</code>
+People - GET - /<code>people</code>/
   * <b>Return</b>
     * A JSON object with the following keys and values
       * id
       * name
       * disclosableInfo
     * Example
-      [
-        {
-          id: 0,
-          name: "Maria Miyazaki",
-          disclosableInfo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        }
-      ]
+
+   <pre>
+        [
+            {
+                id: 0,
+                name: "Maria Miyazaki",
+                disclosableInfo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        ]
+    </pre>
