@@ -5,17 +5,13 @@ The application that expose a REST service that returns a list of People. This a
 Install project dependencies
 -----------------------------
 
-Install JDK with [Homebrew](http://brew.sh/)
+Install JDK with [Homebrew](http://brew.sh/) or [Manual Install](http://docs.oracle.com/javase/7/docs/webnotes/install/).
 
     brew install java
 
-or [Manual Install](http://docs.oracle.com/javase/7/docs/webnotes/install/).
-
-Install Maven with [Homebrew](http://brew.sh/)
+Install Maven with [Homebrew](http://brew.sh/) or [Manual Install](https://maven.apache.org/install.html).
 
     brew install maven
-
-or [Manual Install](https://maven.apache.org/install.html).
 
 Running project
 -----------------------------------
@@ -31,6 +27,28 @@ or
 
     mvn spring-boot:run
 
-This service can be reached using the following URL:
+Now, just access the application in your browser:
 
-    http://localhost:8090/rest/people
+    http://localhost:8090/
+
+API Documentation
+-----------------------------------
+
+API Service can be reached using the following URL:
+
+    http://localhost:8090/rest/
+
+People - GET - /<code>people</code>
+  * <b>Return</b>
+    * A JSON object with the following keys and values
+      * id
+      * name
+      * disclosableInfo
+    * Example
+      [
+        {
+          id: 0,
+          name: "Maria Miyazaki",
+          disclosableInfo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
