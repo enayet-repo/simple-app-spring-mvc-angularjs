@@ -19,7 +19,6 @@ public class Config extends ResourceConfig {
 	public Config() {
 		register(PeopleResource.class);
 	}
-	
 
 	/**
 	 * Either you use the bean initialization to redirect rest calls or use @ApplicationPath

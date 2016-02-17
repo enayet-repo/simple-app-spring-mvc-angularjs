@@ -5,11 +5,11 @@ The application that expose a REST service that returns a list of People. This a
 Install project dependencies
 -----------------------------
 
-Install JDK with [Homebrew](http://brew.sh/) or [Manual Install](http://docs.oracle.com/javase/7/docs/webnotes/install/).
+Install JDK with [Homebrew](http://brew.sh/) or [manual Install](http://docs.oracle.com/javase/7/docs/webnotes/install/).
 
     brew install java
 
-Install Maven with [Homebrew](http://brew.sh/) or [Manual Install](https://maven.apache.org/install.html).
+Install Maven with [Homebrew](http://brew.sh/) or [manual Install](https://maven.apache.org/install.html).
 
     brew install maven
 
@@ -30,6 +30,32 @@ or
 Now, just access the application in your browser:
 
     http://localhost:8090/
+
+Project dependencies
+-----------------------------------
+- [bower](http://bower.io/)
+  - [Angular Js](https://angularjs.org/)
+  - [jQuery](https://jquery.com/)
+- [gulp](http://gulpjs.com/)
+  - gulp-concat
+  - gulp-concat-vendor
+  - gulp-uglify
+  - gulp-minify-css
+  - main-bower-files
+  - gulp-inject
+  - gulp-run-sequence
+  - gulp-gzip
+  - gulp-clone
+  - stream-series
+- [node](https://nodejs.org/)
+
+Maven plugins
+-----------------------------------
+- [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)
+
+Project responsive
+-----------------------------------
+Full HD, HD and Wide VGA
 
 API Documentation
 -----------------------------------
@@ -55,3 +81,7 @@ People - GET - /<code>people</code>/
             }
         ]
     </pre>
+
+Similiar Project
+-----------------------------------
+[Simple Crud with Elixir, Phoenix and Brunch](https://github.com/tiagobarreto/simple-crud-phoenix)

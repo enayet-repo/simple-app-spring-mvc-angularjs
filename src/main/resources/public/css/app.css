@@ -1,0 +1,181 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+}
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 2%;
+}
+
+.header-container {
+    height: 20%;
+}
+
+.header-container {
+    margin:0;
+}
+
+.main {
+    padding: 30px 0;
+}
+
+.main table {
+    float: left;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    box-shadow: 1px 1px 3px 0 rgba(0,0,0,.04),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.02);
+}
+
+.main table caption {
+    background-color: #2C2F3B;
+    padding: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.main table thead, .main table tfoot {
+    background: #e6e8e8;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    color: #8E9AA2;
+}
+
+.main-container table tr {
+    border: 1px solid rgba(34,36,38,.15);
+}
+
+.main table thead tr, .main table tfoot tr th {
+    padding: 15px;
+}
+
+.main table tr td{
+    padding: 10px;
+}
+
+.api {
+    background-color: #C82E29 !important;
+    color: white !important;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #2C2F3B;
+
+    border-radius: 2px;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) {
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 1.7% 1.7%;
+        padding: 6px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Clear fix
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
