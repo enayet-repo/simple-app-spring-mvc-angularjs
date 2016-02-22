@@ -1,6 +1,6 @@
-Simple Application Spring MVC and Angular JS
+Simple Application Spring Boot and Angular JS
 =================================================
-The application that expose a REST service that returns a list of People. This application use Spring MVC, Maven and Angular JS.
+The application that expose a REST service that returns a list of People. This application use Spring Boot, Maven and Angular JS.
 
 ![Project screenshot](https://github.com/tiagobarreto/simple-app-spring-mvc-angularjs/blob/master/docs/screenshot.png)
 
