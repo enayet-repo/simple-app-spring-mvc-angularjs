@@ -36,8 +36,8 @@ Now, just access the application in your browser:
 Project dependencies
 -----------------------------------
 - [bower](http://bower.io/)
-  - [Angular Js](https://angularjs.org/)
-  - [jQuery](https://jquery.com/)
+  - [Angular Js](https://angularjs.org/) - [v1.0.1](https://github.com/angular/code.angularjs.org/blob/master/1.0.1/angular-1.0.1.min.js)
+  - [jQuery](https://jquery.com/) - [v2.2.0](http://code.jquery.com/jquery-2.2.0.js)
 - [gulp](http://gulpjs.com/)
   - gulp-concat
   - gulp-concat-vendor
